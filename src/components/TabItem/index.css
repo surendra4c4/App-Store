@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.tab {
+  color: #7b8794;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 0px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.tab-list-item {
+  list-style-type: none;
+}
+
+.active-styles {
+  color: #2563eb;
+  text-decoration: underline;
+}

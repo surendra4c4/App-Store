@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.input-search-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #7b8794;
+  width: 250px;
+}
+
+.input-class {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  font-size: 8px;
+  width: 100%;
+}
+
+.sarch-icon {
+  height: 10px;
+  width: 10px;
+}
+
+.tab-container {
+  display: flex;
+}
